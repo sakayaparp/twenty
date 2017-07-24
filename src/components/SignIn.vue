@@ -3,18 +3,6 @@
     <h2 class="ui header">SignIn</h2>
     <form action="" class="ui form">
       <center>  
-      <div class="field six wide">
-        <label>Username </label>
-        <input type="text">
-      </div>
-      <div class="field six wide">
-        <label>Password </label>
-        <input type="text">
-      </div>
-      <div class="field">
-        <div class="ui button">SignIn</div>
-        <label>Or</label>
-      </div>
       <div class="field">
         <div v-on:click="signIn" class="ui google plus button"><i class="google plus icon"></i>SignIn With Google +</div>
       </div>
